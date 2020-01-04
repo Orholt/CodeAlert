@@ -1,0 +1,71 @@
+<C#>
+    <pytanie> Jakimi znakami oznaczamy komentarz liniowy?
+        <odp1> //
+        <odp2> /* i */
+        <odp3> !--
+    </pytanie>
+
+    <pytanie> Którym typem komentarza oznaczymy wiele linijek kodu?
+        <odp1> blokowym
+        <odp2> liniowym
+        <odp3> przeplotowym
+    </pytanie>
+
+    <pytanie> Którym typem komentarza oznaczymy wiele linijek kodu?
+        <odp1> blokowym
+        <odp2> liniowym
+        <odp3> przeplotowym
+    </pytanie>
+
+    <pytanie> Czy możemy użyć komentarzu liniowego w środku instrukcji?
+        <odp1> tak
+        <odp2> nie
+    </pytanie>
+
+    <pytanie> Czy możemy użyć komentarzu liniowego w środku instrukcji?
+        <odp1> tak
+        <odp2> nie
+    </pytanie>
+    
+    ///////////////////////////////////////////////
+
+    <pytanie> Czy typ zmiennej float jest zmiennoprzecinkowy?
+        <odp1> tak
+        <odp2> nie
+    </pytanie>
+
+    <pytanie> W jaki sposób przypisujemy zmiennej typ?
+        <odp1> int x;
+        <odp2> x=> int;
+    </pytanie>
+    
+    <pytanie> Jakim typem zmiennej oznaczamy wartość logiczną?
+        <odp1> float
+        <odp2> int
+        <odp3> bool
+    </pytanie>
+     
+    <pytanie> W jaki sposób oznaczymy ciąg znaków?
+        <odp1> "Tekst"
+        <odp2> -Tekst-
+    </pytanie>
+    
+    /////////////////////////////////////////////////////////////////////////////////
+
+    <pytanie> Jak można zadeklarować parę zmiennych?
+        <odp1> int nazwa1, nazwa2, nazwa3
+        <odp2> int {nazwa1; nazwa2; nazwa3}
+    </pytanie>
+
+    <pytanie> Czy nazwa zmiennej może zaczynać sie od cyfry?
+        <odp1> tak
+        <odp2> nie
+    </pytanie>
+    
+    <zadanie> Napisz skrypt odpowiedzialny za wyświetlenie wartości zmiennej?
+    </zadanie>
+    
+    
+    
+    
+</C#>
