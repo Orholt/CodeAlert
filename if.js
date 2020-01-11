@@ -35,4 +35,10 @@ function check4() {//jeśli pytanie czwarte jest złe to dajecie to
 
 /*
 */
+//zagranie dźwięku przy wybraniu nast strony
+function nast()
+{
+    var audio = new Audio('https://freesound.org/data/previews/186/186669_2731232-lq.mp3');
+    audio.play();
+}
 
