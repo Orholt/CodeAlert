@@ -5,26 +5,25 @@
 START
 */
 
-html{
+html {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     margin: 0;
     padding: 0;
     background-color: #434243;
     font-family: 'Roboto', sans-serif;
 }
 
-
-#top-test{
-    background-color: #ffd05b ;
+#top-test {
+    background-color: #ffd05b;
     width: 100%;
     height: auto;
-    -webkit-box-shadow: 0px 0px 10px -1px rgba(67,66,67,1);
-    -moz-box-shadow: 0px 0px 10px -1px rgba(67,66,67,1);
-    box-shadow: 0px 0px 10px -1px rgba(67,66,67,1);
+    -webkit-box-shadow: 0px 0px 10px -1px rgba(67, 66, 67, 1);
+    -moz-box-shadow: 0px 0px 10px -1px rgba(67, 66, 67, 1);
+    box-shadow: 0px 0px 10px -1px rgba(67, 66, 67, 1);
     text-align: center;
     letter-spacing: 1.5px;
     font-size: 23px;
@@ -35,23 +34,23 @@ body{
     margin-bottom: 20px;
 }
 
-#menu-test{
-    background-color: #434243 ;
+#menu-test {
+    background-color: #434243;
     width: 100%;
     height: 20px;
     text-align: center;
     padding-bottom: 5px;
-
-   
 }
-.icon-test{
+
+.icon-test {
     text-align: center;
     float: left;
     height: 100%;
     width: 19.5%;
     letter-spacing: 1.5px;
 }
-.icon-test-active{
+
+.icon-test-active {
     text-align: center;
     float: left;
     height: 100%;
@@ -60,8 +59,7 @@ body{
     border-bottom-style: solid;
 }
 
-
-.text-container-test{
+.text-container-test {
     width: 95%;
     margin-left: auto;
     margin-right: auto;
@@ -70,18 +68,16 @@ body{
     margin-bottom: 20px;
     padding: 10px;
     float: none;
-
-
 }
 
-.normal-text-test{
+.normal-text-test {
     color: #ffd05b;
     font-weight: bold;
     letter-spacing: 1.5px;
     font-size: 14px;
 }
 
-.special-text-test{
+.special-text-test {
     color: #ffd05b;
     font-weight: bold;
     text-decoration: underline;
@@ -89,9 +85,10 @@ body{
     font-size: 15px;
     text-align: left;
 }
-#code-place-test{
+
+#code-place-test {
     margin-top: 10px;
-    background-color:#ffd05b;
+    background-color: #ffd05b;
     width: 95%;
     height: auto;
     border-color: #434243;
@@ -102,10 +99,9 @@ body{
     color: #434343;
     font-weight: bold;
     overflow: auto;
-
 }
 
-.important-test{
+.important-test {
     margin-top: 10px;
     margin-bottom: 10px;
     background-color: #ffd05b;
@@ -123,13 +119,13 @@ body{
     height: auto;
 }
 
-#next-test{
+#next-test {
     width: 50%;
     height: 23px;
     margin-left: 25%;
     margin-right: 25%;
     margin-top: 20px;
-    border-radius: 10px;  
+    border-radius: 10px;
     background-color: #ffd05b;
     color: #434243;
     float: none;
@@ -140,43 +136,39 @@ body{
     font-weight: bold;
 }
 
-
 ::-webkit-scrollbar {
     width: 5px;
-  }
+}
 
 ::-webkit-scrollbar-track {
     background: #ffd05b;
-   
-   
-  }
-   
+}
 
-  ::-webkit-scrollbar-thumb {
-    background: #434243; 
-  }
-  
-  ::-webkit-scrollbar-thumb:hover {
-    background: #434243; 
-  }
+ ::-webkit-scrollbar-thumb {
+    background: #434243;
+}
 
+ ::-webkit-scrollbar-thumb:hover {
+    background: #434243;
+}
 
-.exercise-text-test{
+.exercise-text-test {
     color: #ffd05b;
     font-weight: bold;
     letter-spacing: 1.5px;
     font-size: 18px;
-
-
-
 }
-.center-text-test{
+
+.center-text-test {
     width: 100%;
     height: auto;
     text-align: center;
 }
 
-#option1-test,#option2-test,#option3-test,#option4-test{
+#option1-test,
+#option2-test,
+#option3-test,
+#option4-test {
     width: 80%;
     margin-top: 5px;
     margin-left: auto;
@@ -187,13 +179,13 @@ body{
     font-size: 19px;
     font-weight: bold;
     text-align: center;
-    color:#434243 ;
+    color: #434243;
     border-radius: 5px;
-    padding-top:8px ;
+    padding-top: 8px;
     padding-bottom: 8px;
 }
 
-#check-go{
+#check-go {
     width: 60%;
     margin-top: 30px;
     margin-left: auto;
@@ -204,26 +196,34 @@ body{
     font-size: 19px;
     font-weight: bold;
     text-align: center;
-    color:#434243 ;
+    color: #434243;
     border-radius: 5px;
-    padding-top:8px ;
+    padding-top: 8px;
     padding-bottom: 8px;
-
-
 }
+
+
 /*
 STOP
 */
 
-a.yellow1:link, a.yellow1:visited, a.yellow1:active, a.yellow1:hover {
+a.yellow1:link,
+a.yellow1:visited,
+a.yellow1:active,
+a.yellow1:hover {
     color: #ffd05b;
     text-decoration: none;
-    }
+}
 
-a.black1:link, a.black1:visited, a.black1:active, a.black1:hover {
+a.black1:link,
+a.black1:visited,
+a.black1:active,
+a.black1:hover {
     color: #434243;
     text-decoration: none;
-    }    
+}
 
-
-
+.list {
+    border-style: solid;
+    border-color: #ffd05b;
+}
