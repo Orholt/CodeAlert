@@ -20,7 +20,7 @@
         <div class="icon-test"><i class="icon-code"></i></div>
     </div>
 
-    <div id="top-test"><a href="example" class="black1"><i class="icon-left-open"></a></i>Tworzenie funkcji</div>
+    <div id="top-test"><a href="example" class="black1"><i class="icon-left-open"></a></i>Używanie FOR</div>
     <div class="text-container-test">
 
 
@@ -47,44 +47,29 @@ Każdy tekst który wpiszecie
 
  -->
         <span class="normal-text-test">
-            Funkcja pozwala enkapsulować kawałek kodu i wywoływać go z innych części kodu.\
-            Niedługo możesz napotkać sytuację, gdy będziesz musiał powtórzyć część kodu z wielu miejsc - to jest właśnie funkcja funkcji.
-            W C# deklarujemy je właśnie w taki sposób: </span>
+            Instrukcja <u>FOR</u> pozwala na sprawne sprawdzanie paru elementów na raz, tworzenie pętli logicznych oraz ma także wiele innych zastosowań.</span>
 
         <div id="code-place-test"><pre>
-    // tak wygląda tworzenie funkcji:
+    // tak wygląda używanie instrukcji FOR:
 <br>
-    < widoczność > < typ zwrotu > < nazwa > (< parametry >)
+    for ( < zmienna >; < warunek logiczny >; < postępowanie po pętli > )
+        <span class="normal-text-test">
+    </div>
+
+    <br><div class= "normal-text-test">Przykład użycia instrukcji for w celu liczenia do 100:</div>
+    <br>
+<div id="code-place-test"><br><span>for (i=0;i< 100; i++ )<br>
     {
-        < kod funkcji >
-    }
-                        
-</pre></div>
-        <span class="normal-text-test">
-    Funkcję możemy wywołać w następujący sposób: </span>
-        <div id="code-place-test">
-            nazwafunkcji(parametry);<br>
-        </div>
-        <div class="normal-text-test"><br>Dzięki takiemu wywołaniu skrypt wykona kod zawarty w danej funkcji, w tym przypadku wywoła funkcję o nazwie: "nazwafunkcji" wraz z parametrem (parametry), utwóżmy więc zatem takową funkcję.</div>
-
-        <div id="code-place-test">
-            <br> //tworzymy funkcję nic nie zwracającą <br>
-            <br> public void nazwafunkcji(int parametry) { <br><br><i>//po otrzymaniu zmiennej "parametry"</i><br><br> Console.WriteLine(parametry.ToString());<br><br><i> //pokazuje wartość tej zmiennej w konsoli po uprzedniej konwersji jej do wartosci string</i>            <br>}
-
-            <br>
-
-
-        </div>
-
         <br>
-        <span class="normal-text-test">
-
+        Console.Writeline(i.ToString());
+        <br>
+    }<br>
+    <br>
 
 </span>
 
 
-
-    </div>
+</div>
 
     <div id="next-test">
         <a href="example" class="black1">Następna Strona</a>
