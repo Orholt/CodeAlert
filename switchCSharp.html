@@ -20,7 +20,7 @@
         <div class="icon-test"><i class="icon-code"></i></div>
     </div>
 
-    <div id="top-test"><a href="example" class="black1"><i class="icon-left-open"></a></i>Używanie FOR</div>
+    <div id="top-test"><a href="example" class="black1"><i class="icon-left-open"></a></i>Używanie instrukcji SWITCH</div>
     <div class="text-container-test">
 
 
@@ -47,41 +47,55 @@ Każdy tekst który wpiszecie
 
  -->
         <span class="normal-text-test">
-            Instrukcja <u>FOR</u> pozwala na sprawne sprawdzanie paru elementów na raz, tworzenie pętli logicznych oraz ma także wiele innych zastosowań.</span>
+            Instrukcja <u>SWITCH</u> pozwala na szybkie porównanie wartości w sytuacji kiedy pisanie wielu instrukcji IF byłoby zbyt uciążliwe.<br></span>
 
         <div id="code-place-test"><pre>
-    // tak wygląda używanie instrukcji FOR:
+    // tak wygląda używanie instrukcji SWITCH:
 <br>
-    for ( < zmienna >; < warunek logiczny >; < postępowanie po pętli > )<br>
+    switch ( < zmienna > )
     {
-        <br>
-        instrukcjel
-        <br>
+        case x:
+        < akcja >;
+        <i>//w tym momencie kodu musimy koniecznie pamiętać o użyciu <u>break;</u></i>
+        case y:
+        < akcja >;
+        <i><u>break;</u></i>
+        case z:
+        < akcja >;
+        <i><u>break;</u></i>
+        default: <i>kiedy wartość jest różna od każdego z przypadków</i>
+        < akcja >;
+        break;
     }
         <span class="normal-text-test">
     </div>
 
-    <br><div class= "normal-text-test">Przykład użycia instrukcji for w celu liczenia do 100:</div>
-    <br>
-<div id="code-place-test"><br><span>for (i=0;i< 100; i++ )<br>
+    <br><div class= "normal-text-test">Przykład użycia instrukcji <u>SWITCH</u> w celu sprawdzenia czy x = 5:</div>
+       
+        <div id="code-place-test"><span><pre>
+    x = 5;
+
+    switch (x)
     {
+        case 1:
+        Console.WriteLine("x=1");
+        case 3:
+        Console.WriteLine("x=3");
+        case 5:
+        Console.WriteLine("x=5");
+    }
+    </pre>
+            </span>
+
+
+        </div>
+
+        <div id="next-test">
+            <a href="example" class="black1">Następna Strona</a>
+        </div>
         <br>
-        Console.Writeline(i.ToString());
         <br>
-    }<br>
-    <br>
-
-</span>
-
-
-</div>
-
-    <div id="next-test">
-        <a href="example" class="black1">Następna Strona</a>
-    </div>
-    <br>
-    <br>
-    <br>
+        <br>
 </body>
 
 </html>

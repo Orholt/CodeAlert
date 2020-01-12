@@ -20,7 +20,7 @@
         <div class="icon-test"><i class="icon-code"></i></div>
     </div>
 
-    <div id="top-test"><a href="example" class="black1"><i class="icon-left-open"></a></i>Używanie FOR</div>
+    <div id="top-test"><a href="example" class="black1"><i class="icon-left-open"></a></i>Pierwszy program</div>
     <div class="text-container-test">
 
 
@@ -47,41 +47,38 @@ Każdy tekst który wpiszecie
 
  -->
         <span class="normal-text-test">
-            Instrukcja <u>FOR</u> pozwala na sprawne sprawdzanie paru elementów na raz, tworzenie pętli logicznych oraz ma także wiele innych zastosowań.</span>
-
+            Aby stworzuć pierwszy program w języku C# musimy najpierw zasygnalizować programowi, że będziemy korzystać z zasobów Systemowych.<br>
+            Aby tego dokonać na samej górze naszego edytora kodu piszemy tak:
+        </span>
         <div id="code-place-test"><pre>
-    // tak wygląda używanie instrukcji FOR:
-<br>
-    for ( < zmienna >; < warunek logiczny >; < postępowanie po pętli > )<br>
+    using System;
+    <br></pre></div>
+        <br><span class="normal-text-test">Następnie możemy przy pomocy funkcji <i>Console.WriteLine()</i> napisać coś w konsoli.</span>
+
+        <div id="code-place-test"><pre> using System;<br><br> Console.WriteLine("Hellow World!");<br></pre></div>
+
+        <span class="normal-text-test"><br>Można łatwo zauważyć, że taka konstrukcja sama w sobie nie będzie działać.<br>Naprawa tego zjawiska polega na deklaracji przestrzeni nazw, tak więc zróbmy.</span>
+        <div id="code-place-test"><pre>
+    using System;
+
+    namespace program
     {
+
+        public static void Main()
+        {
+            Console.WriteLine("Hellow World!");
+        }
+
+    } 
+        </pre></div>
+        <span class="normal-text-test"><br>Teraz jeśli otworzymy konsolę zobaczymy coś takiego:<br><br></span>
+        <div style="width: 95%;height: auto;background-color: rgb(32, 32, 32);color: white;border-radius: 25px;"><br>&nbsp&nbsp&nbsp&nbsp&nbsp > Hellow World!<br><br></div>
+        <div id="next-test">
+            <a href="example" class="black1">Następna Strona</a>
+        </div>
         <br>
-        instrukcjel
         <br>
-    }
-        <span class="normal-text-test">
-    </div>
-
-    <br><div class= "normal-text-test">Przykład użycia instrukcji for w celu liczenia do 100:</div>
-    <br>
-<div id="code-place-test"><br><span>for (i=0;i< 100; i++ )<br>
-    {
         <br>
-        Console.Writeline(i.ToString());
-        <br>
-    }<br>
-    <br>
-
-</span>
-
-
-</div>
-
-    <div id="next-test">
-        <a href="example" class="black1">Następna Strona</a>
-    </div>
-    <br>
-    <br>
-    <br>
 </body>
 
 </html>
